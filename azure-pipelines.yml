@@ -39,6 +39,6 @@ steps:
   displayName: 'Publish NuGet package'
   inputs:
     command: push
-    publishVstsFeed: 'pipeline-training-2020/dotnet.spacegame.models'
+    publishVstsFeed: 'pipeline-training-2020/Tailspin.SpaceGame.Web.Models'
     allowPackageConflicts: true
   condition: succeeded()
